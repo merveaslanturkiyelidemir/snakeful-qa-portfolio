@@ -2,7 +2,7 @@
 
 Bu repo, yayında olan mobil oyunum **Snakeful** (Unity, iOS ve Android) için hazırladığım test dokümantasyonunu içerir. Amacım, yaptığım testleri işverene gösterilebilir ve tekrar edilebilir bir şekilde sunmaktır.
 
-> Durum: Çalışma devam ediyor. Son düzenlemeler eklenecek.
+> Durum: İlk sürüm tamamlandı (iOS, sürüm 1.1.5). Android ve keşifsel test sonraki çalışmaya bırakıldı.
 
 ## Test Edilen Ürün
 
@@ -19,17 +19,18 @@ Android ve keşifsel test bu çalışmada yapılmadı, sonraki çalışmaya bır
 
 | Klasör | Ne içerir | Durum |
 |---|---|---|
-| `docs/` | Kapsam ve risk analizi, test planı, risk-senaryo izlenebilirlik matrisi | Hazır |
+| `docs/` | Kapsam ve risk analizi, test planı, risk-senaryo izlenebilirlik matrisi, tek sayfalık özet | Hazır |
 | `test-cases/` | Mod ve özellik bazlı test senaryoları ve sonuçları (Classic, ColorMatch, Sequence, ortak özellikler) | Hazır, 58 senaryo |
 | `bug-reports/` | Bug raporu şablonu, çözülmüş hata kaydı, gözlem notu | Hazır |
 
 ## Nereden Başlamalı
 
-1. `docs/01_Kapsam_ve_Risk_Analizi.md`: Neyin neden test edildiği
-2. `docs/02_Test_Plani.md`: Testlerin nasıl yürütüldüğü
-3. `test-cases/`: Yazılı test senaryoları ve sonuçları
-4. `bug-reports/`: Şablon ve kayıtlar
-5. `docs/03_Risk_Senaryo_Izlenebilirlik_Matrisi.md`: Hangi risk hangi senaryolarla karşılandı, boşluklar neler
+1. `docs/04_Portfoy_Ozeti.md`: Tek sayfalık özet
+2. `docs/01_Kapsam_ve_Risk_Analizi.md`: Neyin neden test edildiği
+3. `docs/02_Test_Plani.md`: Testlerin nasıl yürütüldüğü
+4. `test-cases/`: Yazılı test senaryoları ve sonuçları
+5. `bug-reports/`: Şablon ve kayıtlar
+6. `docs/03_Risk_Senaryo_Izlenebilirlik_Matrisi.md`: Hangi risk hangi senaryolarla karşılandı, boşluklar neler
 
 ## Sonuç Özeti
 
